@@ -1,0 +1,65 @@
+OOP - Object Oriented Programming
+
+** primitivie data types store single, simple values
+   ----- examples include:
+            -- byte
+            -- Int
+            -- Float
+            -- Boolean
+            -- Double
+            -- Char
+
+Objects can contain more than 1 data type together.
+  --- allows you to group like items together
+
+objects differ from arrays in that they store items of different data together.
+
+Struct (structure) - is the precursor to the object
+
+OOP are instances of a CLASS
+    a class is the template of an object
+    some variables are best left unstated when initializing a class... you define the actual object
+
+1 *- Encapsulation - bundle data with the methods inside a CLASS
+    methods get information to an object or get the information
+
+    **for read only method you set a 'getter' method allowing validation instead of a 'setter' method
+    *** best not to let anything external to change an objects code...
+    **** information hiding is important in controlling data
+
+2 *- Abstraction - show essential detail and hide everything else
+    abstraction is a useful way to view complex code and programs
+
+    ** think of your apps as interface and implementation
+       --- if classes are entangled then one change can cause many changes
+
+       ---  best to create an 'interface' through which classes can interact and ensure that each piece of code is individually developed
+
+       --- abstraction allows for code to be worked on incrementally
+
+3 *- Inheritance - allows classes to derive from other classes
+    subclasses inherit access to the methods from the parent class
+
+    inheritance has 3 modifiers:
+       -public: allows to be accessed anywhere in the program
+
+       -private: private members can only be access from within the same class as defined
+
+       -protected: can be accessed within the class they are defined plus any subclasses
+
+4 *-  Polymorphism - Dynamic or Static
+
+    Dynamic polymorphisim occurs during the program runtime
+        -- the method sig is in the subclass and superclass
+
+        allows methods in the superclass without using ifs and else ifs
+
+    Static polymorphisim is known as method overloading
+       -- you differentiate by the information that is contained in the method, even though methods have the same name
+
+    method overloading can cause issues if you mistake the methods arguement
+
+        
+
+    
+    
